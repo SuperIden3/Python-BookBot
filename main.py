@@ -19,7 +19,7 @@ def main() -> None:
     print(f"{len(words)} words were found in the document\n")
     for letter, appearances in word_counts.items():
       print(f"The character \"{letter}\" appeared {appearances} times")
-    print(f"\nCharacter \x1B[32m\"{max_char}\"\x1B[39m has appeared the most with \x1B[33m{max_count}\x1B[39m appearances") # Edit
+    print(f"\nCharacter \"{max_char}\" has appeared the most with {max_count} appearances")
     print("--- End report ---")
 
 if __name__ == "__main__":
